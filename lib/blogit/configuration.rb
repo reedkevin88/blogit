@@ -123,6 +123,7 @@ module Blogit
       @rss_feed_description        = "#{Rails.application.engine_name.titleize} Blog Posts"
       @ping_search_engines         = false
       @redcarpet_options           = REDCARPET_OPTIONS
+      @layout                      = nil
     end
 
     def default_parser_class
@@ -153,6 +154,10 @@ module Blogit
     
     def cache_pages=(value)
       blogit_warn "config.cache_pages is now deprecated - Page caching is no longer supported by blogit"
+    end
+
+    def layout=(layout)
+      @layout = layout
     end
     
     private
