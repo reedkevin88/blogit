@@ -41,6 +41,9 @@ en:
       blog_post_was_successfully_destroyed: "Blog post was successfully destroyed."
       tags: "Tags"
       related_posts: "Related posts"
+      meta_title: "Meta Title"
+      meta_keywords: "Meta Keywords"
+      meta_description: "Meta Description"
     share_bar:
       facebook: "en_US"
 
