@@ -13,7 +13,7 @@ module Blogit
     # ==============
     # = Attributes =
     # ==============
-
+    attr_accessible :meta_title, :meta_keywords, :meta_description
 
     # ===============
     # = Validations =
